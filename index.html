@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajeeh Ul Hassan | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Wajeeh<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h3>Hello, I'm</h3>
+            <h1>Wajeeh Ul Hassan</h1>
+            <p>I am a <span class="typing-text"></span></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-image" data-aos="zoom-in">
+            <div class="img-box">
+                <img src="assets/images/profile.jpg" alt="Wajeeh Ul Hassan">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-container">
+            <div class="about-text" data-aos="fade-right">
+                <p>I am a passionate and versatile creative professional with expertise in Web Development, Graphic Design, and Android App Development. With a keen eye for detail and a drive for innovation, I bridge the gap between aesthetics and functionality.</p>
+                <p>Whether it's crafting responsive websites, designing intuitive mobile applications, or creating impactful visual identities, I am dedicated to delivering high-quality solutions that exceed expectations.</p>
+                <div class="about-info">
+                    <div class="info-item"><span>Email:</span> clickoa5@gmail.com</div>
+                    <div class="info-item"><span>Location:</span> Pakistan</div>
+                    <div class="info-item"><span>Availability:</span> Freelance / Full-time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card" data-aos="flip-left">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, JavaScript, React, Node.js</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Adobe Photoshop, Illustrator, Figma, UI/UX</p>
+            </div>
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+                <i class="fab fa-android"></i>
+                <h3>Android App Dev</h3>
+                <p>Java, Kotlin, Flutter, Firebase</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-img">
+                    <div class="placeholder-img">E-Commerce Web App</div>
+                </div>
+                <div class="project-info">
+                    <h3>ShopEase</h3>
+                    <p>A full-stack e-commerce solution with payment integration.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-img">
+                    <div class="placeholder-img">Fitness Tracker App</div>
+                </div>
+                <div class="project-info">
+                    <h3>FitLife</h3>
+                    <p>Android application for tracking daily workouts and nutrition.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-img">
+                    <div class="placeholder-img">Brand Identity Design</div>
+                </div>
+                <div class="project-info">
+                    <h3>EcoBrand</h3>
+                    <p>Complete visual identity for a sustainable clothing brand.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-container" data-aos="fade-up">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Wajeeh Ul Hassan. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
